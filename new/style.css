@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-image: url('path/to/your/background.jpg'); 
+    background-size: cover; 
+    background-position: center;
+    filter: blur(5px); 
+}
+
+.hero {
+    text-align: center;
+    position: relative; /* To position elements on top of blurry background */
+    z-index: 2;         /* Keep content above background */
+}
+
+#countdown {
+    font-size: 2em;
+}
+
+.floating-element {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;         
+    background-color: rgba(255, 255, 255, 0.5); 
+    position: absolute;
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%);  
+    animation: float 5s linear infinite alternate; /* Basic animation */
+}
+
+@keyframes float {
+    to { transform: translate(-50%, -65%); } 
+}
