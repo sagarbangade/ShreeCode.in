@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Happy Holi</title>
+  <style>
+    body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  box-sizing: border-box;
+  /* Set background video */
+  position: relative;
+}
+
+
+video#bgVideo {
+  width: 100%;
+  height: 100%;
+}
+
+.container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%; /* Ensure container spans the entire width of the viewport */
+  height: 100%; /* Ensure container spans the entire height of the viewport */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.message-container {
+  text-align: center;
+  color: #ffffff; /* Text color */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Text shadow for better readability */
+  /* background-color: rgba(0, 0, 0, 0.189);  */
+  padding: 5px; 
+  font-size: 1.7rem; /* Adjust font size */
+  border-radius: 10px; /* Rounded corners */
+  margin: 0 auto; /* Center the container horizontally */
+  margin-top: 60%;
+  margin-left: 0; /* Remove left margin */
+  margin-right: 0; /* Remove right margin */
+  max-width: 100%; /* Reduced from 80% */
+  animation: blinkText 1s infinite alternate; 
+  animation: colorCycling 3s infinite alternate;
+}
+@keyframes colorCycling {
+    0%   { color: #52ff3e; }
+    50%  { color: #00ffd5; }
+    100% { color: #f2ff00; }
+} 
+@keyframes blinkText {
+    0%   { opacity: 1; }
+    50%  { opacity: 0; }
+    100% { opacity: 1; }
+ }
+
+
+.message-input {
+  text-align: center;
+  color: #ff0000;
+  border-radius: 10px;
+  font-size: 1rem;
+  margin-bottom: 50%;
+  margin-top: 5%;
+
+  padding: 0%;
+}
+
+input[type="text"] {
+  padding: 10px;
+  font-size: 1rem;
+  border: 2px solid #ff0000; /* Green border */
+  border-radius: 10px;
+  outline: none; /* Remove default outline */
+  transition: border-color 0.3s ease; /* Smooth transition for border color */
+}
+
+input[type="text"]:focus {
+  border-color: #45a049; /* Darker green border on focus */
+}
+
+/* Button */
+button {
+  padding: 10px 20px; /* Padding on top/bottom, left/right */
+  font-size: 1rem;
+  background-color: #ff0000; /* Green background */
+  border: none;
+  border-radius: 10px;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  transition-duration: 0.4s;
+  cursor: pointer; /* Change cursor to pointer on hover */
+}
+
+button:hover {
+  background-color: #a04554; /* Darker green background on hover */
+}
+
+
+/* Media query for devices with width less than 600px */
+@media (max-width: 600px) {
+  body, input[type="text"], button {
+    font-size: 1rem; /* Adjust font size for smaller devices */
+  }
+
+  video#bgVideo {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.message-input {
+  text-align: center;
+  color: #ff0000;
+  border-radius: 10px;
+  font-size: 1rem;
+  margin-top: 20%;
+  margin-bottom: 50%;
+
+  padding: 0%;
+}
+.message-container {
+  text-align: center;
+  color: #ffffff; /* Text color */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Text shadow for better readability */
+  /* background-color: rgba(0, 0, 0, 0.189);  */
+  padding: 5px; 
+  font-size: 1.7rem; /* Adjust font size */
+  border-radius: 10px; /* Rounded corners */
+  margin: 0 auto; /* Center the container horizontally */
+  margin-top: 77%;
+  margin-left:0; /* Remove left margin */
+  margin-right: 0; /* Remove right margin */
+  max-width: 100%; /* Reduced from 80% */
+  animation: blinkText 1s infinite alternate; 
+  animation: colorCycling 3s infinite alternate;
+}
+@keyframes colorCycling {
+    0%   { color: #52ff3e; }
+    50%  { color: #00ffd5; }
+    100% { color: #f2ff00; }
+} 
+@keyframes blinkText {
+    0%   { opacity: 1; }
+    50%  { opacity: 0; }
+    100% { opacity: 1; }
+ }
+}
+
+    .holi-background {
+  width: 100vw;
+  height: 100vh;
+  background-image: 
+      radial-gradient(circle, #FF69B4 20%, #FFD700 50%, #00FF7F 80%), /* Bright, Holi-like colors */
+      linear-gradient(to right, #4B0082 0%, #9370DB 100%); 
+  background-size: 400% 400%;
+  /* Animation: */
+  animation: holiColors 3s ease-in-out infinite alternate; 
+}
+
+@keyframes holiColors {
+  0% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 100% 50%;
+  }
+}
+
+  </style>
+</head>
+<body>
+  <div class="container holi-background">
+    <div class="message-container">
+      Happy Holi
+      <div id="message"></div>
+    </div >
+    <div class="message-input">
+      <input type="text" id="name" placeholder="अपने नाम के साथ संदेश बनाएं">
+      <button onclick="generateURL()">Share</button>
+    </div>
+  </div>
+  
+  <script>
+    function playBackgroundMusic() {
+        const audio = document.getElementById('bgMusic');
+        audio.muted = false; // Unmute 
+        audio.play(); 
+      }
+  // Get the name from the URL
+  const urlParams = new URLSearchParams(window.location.search);
+  const name = urlParams.get('name');
+  
+  // If there's a name in the URL, display the message
+  if (name) {
+    document.getElementById('message').innerText = `
+    रंगों की बौछार,
+  खुशियों का त्योहार,
+  होली का उमंग लेकर आए,
+  आपके जीवन में खुशियों के बहार!
+  
+  ${name} 
+  की ओर से आपको और 
+  आपके परिवार को होली की 
+  हार्दिक शुभकामनाएं
+  
+  | | जय श्री कृष्ण | |`;
+  }
+  
+   function generateURL() {
+     // Get the value from the input field
+     const name = document.getElementById('name').value;
+  
+     // Encode the name for safe URL usage
+    const encodedName = encodeURIComponent(name);
+  
+     // Generate the new URL
+     const newURL = window.location.href.split('?')[0] + '?name=' + encodedName; 
+  
+      // More engaging share message
+     const newmsg = '🤫 ' + name + ' ने आपके लिए एक खास होली संदेश भेजा है! क्या है ये सरप्राइज? जानने के लिए लिंक खोलें 😉 रंगों की बौछार, होली मुबारक! ' + newURL;
+  
+     // Share the URL
+     if (navigator.share) {
+       navigator.share({
+        title: 'होली का सरप्राइज!', // More appealing title
+        text: newmsg // Use the modified share message
+       }).then(() => {
+        console.log('Thanks for sharing!');
+       })
+        .catch(console.error);
+     } else {
+       // Fallback for browsers that don't support the Web Share API
+       alert(newmsg);
+     }
+   }
+  
+  
+   anime.timeline({loop: true})
+    .add({
+       targets: '.message-container',
+       scale: [2, 1],
+       opacity: [0, 1],
+       easing: "easeOutCirc",
+       duration: 800,
+       delay: (el, i) => 800 * i
+    }).add({
+       targets: '.message-container',
+       opacity: 0,
+       duration: 1000,
+       easing: "easeOutCirc",
+       delay: 1000
+    });
+
+  
+  </script>
+  
+</body>
+</html>
