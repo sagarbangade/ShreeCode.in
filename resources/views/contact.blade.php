@@ -41,15 +41,15 @@
             <img src="img/shree.png" height="400">
         </div>
         <!-- Spinner End -->
-    
-    
-<!-- Topbar Start -->
-<div class="container-fluid bg-light px-0 wow fadeIn" data-wow-delay="0.1s">
+
+
+ <!-- Topbar Start -->
+ <div class="container-fluid bg-light px-0 wow fadeIn" data-wow-delay="0.1s">
     <div class="row gx-0 align-items-center d-none d-lg-flex">
         <div class="col-lg-6 px-5 text-start">
             <ol class="breadcrumb mb-0">
-                <li class="breadcrumb-item"><a class="small text-secondary" href="index.html">Home</a></li>
-                <li class="breadcrumb-item"><a class="small text-secondary" href="career.html">Career</a></li>
+                <li class="breadcrumb-item"><a class="small text-secondary" href="/">Home</a></li>
+                <li class="breadcrumb-item"><a class="small text-secondary" href="career">Career</a></li>
                 <li class="breadcrumb-item"><a class="small text-secondary" href="terms.hmtl">Terms</a></li>
                 <li class="breadcrumb-item"><a class="small text-secondary" href="privacy.hmtl">Privacy</a></li>
             </ol>
@@ -66,8 +66,8 @@
     </div>
 </div>
 <!-- Topbar End -->
-    
-    
+
+
         <!-- Brand & Contact Start -->
         <div class="container-fluid2 py-4 px-5 wow fadeIn" data-wow-delay="0.1s">
             <div class="row align-items-center top-bar">
@@ -92,7 +92,7 @@
                         </div>
                         <div class="col-4">
                             <div class="d-flex align-items-center justify-content-end">
-                                
+
                                 <div class="flex-shrink-0 btn-lg-square border rounded-circle">
                                     <i class="fa fa-phone text-primary"></i>
                                 </div>
@@ -118,8 +118,8 @@
             </div>
         </div>
         <!-- Brand & Contact End -->
-    
-    
+
+
         <!-- Navbar Start -->
         <nav class="navbar navbar-expand-lg bg-primary navbar-dark sticky-top py-lg-0 px-lg-5 wow fadeIn" data-wow-delay="0.1s">
             <a href="#" class="navbar-brand ms-3 d-lg-none">MENU</a>
@@ -128,10 +128,10 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarCollapse">
                 <div class="navbar-nav me-auto p-3 p-lg-0">
-                    <a href="index.html" class="nav-item nav-link ">Home</a>
-                    <a href="about.html" class="nav-item nav-link">About Us</a>
+                    <a href="/" class="nav-item nav-link ">Home</a>
+                    <a href="about" class="nav-item nav-link">About Us</a>
                     <div class="nav-item dropdown">
-                        <a href="service.html" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Services</a>
+                        <a href="service" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Services</a>
                         <div class="dropdown-menu border-0 rounded-0 rounded-bottom m-0">
                             <a href="#our-services" class="dropdown-item">Website Design</a>
                             <a href="#our-services" class="dropdown-item">Mobile Application</a>
@@ -145,189 +145,127 @@
                             <a href="#our-services" class="dropdown-item">Other</a>
                         </div>
                     </div>
-                    <a href="project.html" class="nav-item nav-link">Projects</a>
-                    <a href="testimonial.html" class="nav-item nav-link">Testimonial</a>
-                    <a href="Blog.html" class="nav-item nav-link">Blog</a>
-                    <a href="contact.html" class="nav-item nav-link">Contact Us</a>
+                    <a href="project" class="nav-item nav-link">Projects</a>
+                    <a href="testimonial" class="nav-item nav-link">Testimonial</a>
+                    <a href="Blog" class="nav-item nav-link">Blog</a>
+                    <a href="contact" class="nav-item nav-link active">Contact Us</a>
                 </div>
-                <a href="contact.html" class="btn btn-sm btn-light rounded-pill py-2 px-4 d-none d-lg-block">Login</a>
+                <a href="contact" class="btn btn-sm btn-light rounded-pill py-2 px-4 d-none d-lg-block">Login</a>
             </div>
         </nav>
         <!-- Navbar End -->
-    
-    
-<!-- Page Header Start -->
-<div class="container-fluid page-header py-5 mb-5 wow fadeIn" data-wow-delay="0.1s">
-    <div class="container text-center py-5">
-        <h1 class="display-4 text-white animated slideInDown mb-3">Feature</h1>
-        <nav aria-label="breadcrumb animated slideInDown">
-            <ol class="breadcrumb justify-content-center mb-0">
-                <li class="breadcrumb-item"><a class="text-white" href="#">Home</a></li>
-                <li class="breadcrumb-item"><a class="text-white" href="#">Pages</a></li>
-                <li class="breadcrumb-item text-primary active" aria-current="page">Feature</li>
-            </ol>
-        </nav>
-    </div>
-</div>
-<!-- Page Header End -->
-    
 
-    <!-- Facts Start -->
-    <div class="container-xxl py-5">
-        <div class="container">
-            <div class="row g-4">
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="fact-item bg-light rounded text-center h-100 p-5">
-                        <i class="fa fa-certificate fa-4x text-primary mb-4"></i>
-                        <h5 class="mb-3">Years Experience</h5>
-                        <h1 class="display-5 mb-0" data-toggle="counter-up">2</h1>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
-                    <div class="fact-item bg-light rounded text-center h-100 p-5">
-                        <i class="fa fa-users-cog fa-4x text-primary mb-4"></i>
-                        <h5 class="mb-3">Team Members</h5>
-                        <h1 class="display-5 mb-0" data-toggle="counter-up">10</h1>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
-                    <div class="fact-item bg-light rounded text-center h-100 p-5">
-                        <i class="fa fa-users fa-4x text-primary mb-4"></i>
-                        <h5 class="mb-3">Satisfied Clients</h5>
-                        <h1 class="display-5 mb-0" data-toggle="counter-up">10</h1>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
-                    <div class="fact-item bg-light rounded text-center h-100 p-5">
-                        <i class="fa fa-check fa-4x text-primary mb-4"></i>
-                        <h5 class="mb-3">Projects Done</h5>
-                        <h1 class="display-5 mb-0" data-toggle="counter-up">15</h1>
-                    </div>
-                </div>
-            </div>
+
+      <!-- Page Header Start -->
+    <div class="container-fluid page-header py-5 mb-5 wow fadeIn" data-wow-delay="0.1s">
+        <div class="container text-center py-5">
+            <h1 class="display-4 text-white animated slideInDown mb-3">contact</h1>
+            <nav aria-label="breadcrumb animated slideInDown">
+                <ol class="breadcrumb justify-content-center mb-0">
+                    <li class="breadcrumb-item"><a class="text-white" href="#">Home</a></li>
+                    <li class="breadcrumb-item"><a class="text-white" href="#">Pages</a></li>
+                    <li class="breadcrumb-item text-primary active" aria-current="page">contact</li>
+                </ol>
+            </nav>
         </div>
     </div>
-    <!-- Facts End -->
+    <!-- Page Header End -->
 
 
-    
-   
-
-
-
-     <!-- Feature Start -->
-     <div class="container-xxl py-5">
-        <div class="container">
+    <!-- Quote Start -->
+    <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
+        <div class="container py-xxl-5">
             <div class="row g-5">
-                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="h-100">
-                        <h6 class="section-title bg-white text-start text-primary pe-3">Why Choose Us</h6>
-                        <h1 class="display-6 mb-4">Why People Trust Us? Learn About Us!</h1>
-                        <p class="mb-4">At our software development company, trust is a top priority. We're dedicated to providing high-quality solutions that meet our clients' needs, while also maintaining open communication and transparency throughout the development process. With a team of experienced professionals who are passionate about what they do, we've built a reputation as a reliable and trustworthy partner for our clients.</p>
-                        <div class="row g-0 mb-3">
-                            <div class="col-sm-6 wow zoomIn" data-wow-delay="0.2s">
-                                <h5 class="mb-3"><i class="fa fa-check text-primary me-3"></i>Best In Industry</h5>
-                                <h5 class="mb-3"><i class="fa fa-check text-primary me-3"></i>Happy Clients</h5>
-                            </div>
-                            <div class="col-sm-6 wow zoomIn" data-wow-delay="0.4s">
-                                <h5 class="mb-3"><i class="fa fa-check text-primary me-3"></i>Professional Staff</h5>
-                                <h5 class="mb-3"><i class="fa fa-check text-primary me-3"></i>24/7 Support</h5>
-                            </div>
+                <div class="col-lg-6">
+                    <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
+                        <div class="h-100">
+                        <h6 class="section-title bg-white text-start text-primary pe-3">Request A Quote</h6>
+                    </div>
+                </div>                        <h1 class="display-6 mb-4">Need A Free Quote? Please Feel Free to Contact Us</h1>
+
+
+                    <div class="row gx-3">
+                        <div class="col-sm-6 wow zoomIn" data-wow-delay="0.2s">
+                            <h5 class="mb-4"><i class="fa fa-reply text-primary me-3"></i>Reply within 24 hours</h5>
+                        </div>
+                        <div class="col-sm-6 wow zoomIn" data-wow-delay="0.4s">
+                            <h5 class="mb-4"><i class="fa fa-phone-alt text-primary me-3"></i>24 hrs telephone support</h5>
                         </div>
                     </div>
+                    <p class="mb-4">If you're interested in working with us on your software development project, we encourage you to request a quote. Our team is always happy to discuss your needs and provide you with a personalized quote based on the scope and requirements of your project. Simply fill out our quote request form and we'll be in touch as soon as possible to discuss your project further. We look forward to the opportunity to work with you and help bring your vision to life!</p>
+                    <div class="d-flex align-items-center mt-2 wow zoomIn" data-wow-delay="0.6s">
+                        <!--<div class="bg-primary d-flex align-items-center justify-content-center rounded" style="width: 60px; height: 60px;">-->
+                        <!--    <a href="tel: 91-7620755212"><i class="fa fa-phone-alt text-white"></i></a>-->
+                        <!--</div>-->
+                        <!--<div class="ps-4">-->
+                        <!--    <a href="tel: 91-7620755212"><h5 class="mb-2">Call to ask any question</h5>-->
+                        <!--    <h4 class="text-primary mb-0">+91-7620755212</h4></a>-->
+                        <!--</div>-->
+                    </div>
                 </div>
-                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
-                    <div class="img-border">
-                        <img class="img-fluid" src="img/feature.jpg" alt="">
+                <div class="col-lg-6" style="padding-left: 10%;">
+                    <div class="bg-primary rounded h-100 d-flex align-items-center p-5 wow zoomIn" data-wow-delay="0.9s">
+                        <form action="https://docs.google.com/forms/d/e/1FAIpQLSciS9ywxHDADXIQEWkHiI8Uc_WXKXnWA8WNpv54gof69PaOMg/formResponse" method="post">
+                            <div class="row g-3">
+                                <div class="col-xl-12">
+                                    <input type="text" name="entry.1064607615" class="form-control bg-light border-0" placeholder="Company Name" style="height: 55px;">
+                                </div>
+                                <div class="col-xl-12">
+                                    <input type="text" name="entry.237747201" class="form-control bg-light border-0" placeholder="Your Name" style="height: 55px;">
+                                </div>
+                                <div class="col-12">
+                                    <input type="email" name="entry.747364179" class="form-control bg-light border-0" placeholder="Your Email" style="height: 55px;">
+                                </div>
+                                <div class="col-12">
+                                    <select name="entry.135398144" class="form-select bg-light border-0" style="height: 55px;">
+                                        <option selected>Select A Service</option>
+                                        <option value="Website Design">Website Design</option>
+                                        <option value="Mobile Application">Mobile Application</option>
+                                        <option value="eCommerce">eCommerce</option>
+                                        <option value="Digital Marketing">Digital Marketing</option>
+                                        <option value="Graphics Design">Graphics Design</option>
+                                        <option value="Data Analytics">Data Analytics</option>
+                                        <option value="IT consulting">IT consulting</option>
+                                        <option value="Custom Software">Custom Software</option>
+                                        <option value="Other">Other</option>
+
+                                    </select>
+                                </div>
+
+                                <div class="col-12">
+                                    <input type="text" name="entry.1560828627" class="form-control bg-light border-0" placeholder="Your mobile number" style="height: 55px;">
+                                </div>
+
+                                <div class="col-12">
+                                    <textarea name="entry.1027682234"  class="form-control bg-light border-0" rows="3" placeholder="Message"></textarea>
+                                </div>
+
+                                <div class="col-12">
+                                    <button class="btn btn-dark w-100 py-3" type="submit">Request A Quote</button>
+                                </div>
+                            </div>
+                        </form>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <!-- Feature End -->
- <!-- Quote Start -->
- <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
-    <div class="container py-xxl-5">
-        <div class="row g-5">
-            <div class="col-lg-6">
-                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
-                    <div class="h-100">
-                    <h6 class="section-title bg-white text-start text-primary pe-3">Request A Quote</h6>
-                </div>
-            </div>                        <h1 class="display-6 mb-4">Need A Free Quote? Please Feel Free to Contact Us</h1>
+    <!-- Quote End -->
 
 
-                <div class="row gx-3">
-                    <div class="col-sm-6 wow zoomIn" data-wow-delay="0.2s">
-                        <h5 class="mb-4"><i class="fa fa-reply text-primary me-3"></i>Reply within 24 hours</h5>
-                    </div>
-                    <div class="col-sm-6 wow zoomIn" data-wow-delay="0.4s">
-                        <h5 class="mb-4"><i class="fa fa-phone-alt text-primary me-3"></i>24 hrs telephone support</h5>
-                    </div>
-                </div>
-                <p class="mb-4">If you're interested in working with us on your software development project, we encourage you to request a quote. Our team is always happy to discuss your needs and provide you with a personalized quote based on the scope and requirements of your project. Simply fill out our quote request form and we'll be in touch as soon as possible to discuss your project further. We look forward to the opportunity to work with you and help bring your vision to life!</p>
-                <div class="d-flex align-items-center mt-2 wow zoomIn" data-wow-delay="0.6s">
-                    <!--<div class="bg-primary d-flex align-items-center justify-content-center rounded" style="width: 60px; height: 60px;">-->
-                    <!--    <a href="tel: 91-7620755212"><i class="fa fa-phone-alt text-white"></i></a>-->
-                    <!--</div>-->
-                    <!--<div class="ps-4">-->
-                    <!--    <a href="tel: 91-7620755212"><h5 class="mb-2">Call to ask any question</h5>-->
-                    <!--    <h4 class="text-primary mb-0">+91-7620755212</h4></a>-->
-                    <!--</div>-->
-                </div>
-            </div>
-            <div class="col-lg-6" style="padding-left: 10%;">
-                <div class="bg-primary rounded h-100 d-flex align-items-center p-5 wow zoomIn" data-wow-delay="0.9s">
-                    <form action="https://docs.google.com/forms/d/e/1FAIpQLSciS9ywxHDADXIQEWkHiI8Uc_WXKXnWA8WNpv54gof69PaOMg/formResponse" method="post">
-                        <div class="row g-3">
-                            <div class="col-xl-12">
-                                <input type="text" name="entry.1064607615" class="form-control bg-light border-0" placeholder="Company Name" style="height: 55px;">
-                            </div>
-                            <div class="col-xl-12">
-                                <input type="text" name="entry.237747201" class="form-control bg-light border-0" placeholder="Your Name" style="height: 55px;">
-                            </div>
-                            <div class="col-12">
-                                <input type="email" name="entry.747364179" class="form-control bg-light border-0" placeholder="Your Email" style="height: 55px;">
-                            </div>
-                            <div class="col-12">
-                                <select name="entry.135398144" class="form-select bg-light border-0" style="height: 55px;">
-                                    <option selected>Select A Service</option>
-                                    <option value="Website Design">Website Design</option>
-                                    <option value="Mobile Application">Mobile Application</option>
-                                    <option value="eCommerce">eCommerce</option>
-                                    <option value="Digital Marketing">Digital Marketing</option>
-                                    <option value="Graphics Design">Graphics Design</option>
-                                    <option value="Data Analytics">Data Analytics</option>
-                                    <option value="IT consulting">IT consulting</option>
-                                    <option value="Custom Software">Custom Software</option>
-                                    <option value="Other">Other</option>
+    <!-- Google Map Start -->
+    <div class="container-xxl pt-5 px-0 wow fadeIn" data-wow-delay="0.1s">
+        <iframe class="w-100 mb-n2" style="height: 450px;"
+            src="https://maps.google.com/maps?q=ShreeCode.in nagpur&t=k&z=16&ie=UTF8&iwloc=&output=embed"
+            frameborder="0" allowfullscreen="" aria-hidden="false" tab/="0"></iframe>
 
-                                </select>
-                            </div>
 
-                            <div class="col-12">
-                                <input type="text" name="entry.1560828627" class="form-control bg-light border-0" placeholder="Your mobile number" style="height: 55px;">
-                            </div>
-
-                            <div class="col-12">
-                                <textarea name="entry.1027682234"  class="form-control bg-light border-0" rows="3" placeholder="Message"></textarea>
-                            </div>
-                           
-                            <div class="col-12">
-                                <button class="btn btn-dark w-100 py-3" type="submit">Request A Quote</button>
-                            </div>
-                        </div>
-                    </form>
-                </div>
-            </div>
-        </div>
     </div>
-</div>
-<!-- Quote End -->
+    <!-- Google Map End -->
 
 
-<!-- Footer Start -->
-<div class="container-fluid bg-dark text-body footer mt-5 pt-5 wow fadeIn" data-wow-delay="0.1s">
+ <!-- Footer Start -->
+ <div class="container-fluid bg-dark text-body footer mt-5 pt-5 wow fadeIn" data-wow-delay="0.1s">
     <div class="container py-5">
         <div class="row g-5">
             <div class="col-lg-3 col-md-6">
@@ -354,7 +292,7 @@
             </div>
                 <div class="col-lg-3 col-md-6">
                     <h5 class="text-light mb-4">Our Services</h5>
-            
+
                             <a class="btn btn-link" href="">Website Design</a>
                             <a class="btn btn-link" href="">Mobile Application</a>
                             <a class="btn btn-link" href="">eCommerce</a>
@@ -363,7 +301,7 @@
                             <a class="btn btn-link" href="">Data Analytics</a>
                             <a class="btn btn-link" href="">Digital Marketing</a>
                             <a class="btn btn-link" href="">IT consulting</a>
-                      
+
                 </div>
             <div class="col-lg-3 col-md-6">
                 <h5 class="text-light mb-4">Map</h5>
@@ -382,10 +320,10 @@
                     Designed By <a href="https://htmlcodex.com">HTML Codex</a>
                     <br>Distributed By: <a class="border-bottom" href="https://themewagon.com" target="_blank">ThemeWagon</a>
                     <ol class="breadcrumb mb-5">
-                        <li class="breadcrumb-item"><a class="small text-secondary" href="index.html">Home</a></li>
-                        <li class="breadcrumb-item"><a class="small text-secondary" href="career.html">Career</a></li>
-                        <li class="breadcrumb-item"><a class="small text-secondary" href="terms.html">Terms</a></li>
-                        <li class="breadcrumb-item"><a class="small text-secondary" href="privacy.html">Privacy</a></li>
+                        <li class="breadcrumb-item"><a class="small text-secondary" href="/">Home</a></li>
+                        <li class="breadcrumb-item"><a class="small text-secondary" href="career">Career</a></li>
+                        <li class="breadcrumb-item"><a class="small text-secondary" href="terms">Terms</a></li>
+                        <li class="breadcrumb-item"><a class="small text-secondary" href="privacy">Privacy</a></li>
                     </ol>
                 </div>
             </div>

@@ -59,8 +59,8 @@
         <div class="row gx-0 align-items-center d-none d-lg-flex">
             <div class="col-lg-6 px-5 text-start">
                 <ol class="breadcrumb mb-0">
-                    <li class="breadcrumb-item"><a class="small text-secondary" href="index.html">Home</a></li>
-                    <li class="breadcrumb-item"><a class="small text-secondary" href="career.html">Career</a></li>
+                    <li class="breadcrumb-item"><a class="small text-secondary" href="/">Home</a></li>
+                    <li class="breadcrumb-item"><a class="small text-secondary" href="career">Career</a></li>
                     <li class="breadcrumb-item"><a class="small text-secondary" href="terms.hmtl">Terms</a></li>
                     <li class="breadcrumb-item"><a class="small text-secondary" href="privacy.hmtl">Privacy</a></li>
                 </ol>
@@ -147,10 +147,10 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarCollapse">
             <div class="navbar-nav me-auto p-3 p-lg-0">
-                <a href="index.html" class="nav-item nav-link active">Home</a>
-                <a href="about.html" class="nav-item nav-link">About Us</a>
+                <a href="/" class="nav-item nav-link active">Home</a>
+                <a href="about" class="nav-item nav-link">About Us</a>
                 <div class="nav-item dropdown">
-                    <a href="service.html" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Services</a>
+                    <a href="service" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Services</a>
                     <div class="dropdown-menu border-0 rounded-0 rounded-bottom m-0">
                         <a href="#our-services" class="dropdown-item">Website Design</a>
                         <a href="#our-services" class="dropdown-item">Mobile Application</a>
@@ -164,12 +164,12 @@
                         <a href="#our-services" class="dropdown-item">Other</a>
                     </div>
                 </div>
-                <a href="project.html" class="nav-item nav-link">Projects</a>
-                <a href="testimonial.html" class="nav-item nav-link">Testimonial</a>
-                <a href="Blog.html" class="nav-item nav-link">Blog</a>
-                <a href="contact.html" class="nav-item nav-link">Contact Us</a>
+                <a href="project" class="nav-item nav-link">Projects</a>
+                <a href="testimonial" class="nav-item nav-link">Testimonial</a>
+                <a href="Blog" class="nav-item nav-link">Blog</a>
+                <a href="contact" class="nav-item nav-link">Contact Us</a>
             </div>
-            <a href="contact.html" class="btn btn-sm btn-light rounded-pill py-2 px-4 d-none d-lg-block">Login</a>
+            <a href="contact" class="btn btn-sm btn-light rounded-pill py-2 px-4 d-none d-lg-block">Login</a>
         </div>
     </nav>
     <!-- Navbar End -->
@@ -185,7 +185,7 @@
                     <h1>Better Solutions For Your Business</h1>
                     <h2>We are team of talented software developer build custom software to grow your Business</h2>
                     <div class="d-flex justify-content-center justify-content-lg-start">
-                        <a href="contact.html" class="btn-get-started scrollto">Get Started</a>
+                        <a href="contact" class="btn-get-started scrollto">Get Started</a>
                         <a href="https://www.youtube.com/watch?v=jDDaplaOz7Q" class="glightbox btn-watch-video"><i
                                 class="bi bi-play-circle"></i><span>Watch Video</span></a>
                     </div>
@@ -935,14 +935,14 @@
                         <br>Distributed By: <a class="border-bottom" href="https://themewagon.com"
                             target="_blank">ThemeWagon</a>
                         <ol class="breadcrumb mb-5">
-                            <li class="breadcrumb-item"><a class="small text-secondary" href="index.html">Home</a>
+                            <li class="breadcrumb-item"><a class="small text-secondary" href="/">Home</a>
                             </li>
-                            <li class="breadcrumb-item"><a class="small text-secondary" href="career.html">Career</a>
+                            <li class="breadcrumb-item"><a class="small text-secondary" href="career">Career</a>
                             </li>
-                            <li class="breadcrumb-item"><a class="small text-secondary" href="terms.html">Terms</a>
+                            <li class="breadcrumb-item"><a class="small text-secondary" href="terms">Terms</a>
                             </li>
                             <li class="breadcrumb-item"><a class="small text-secondary"
-                                    href="privacy.html">Privacy</a></li>
+                                    href="privacy">Privacy</a></li>
                         </ol>
                     </div>
                 </div>

@@ -53,8 +53,8 @@
     <div class="row gx-0 align-items-center d-none d-lg-flex">
         <div class="col-lg-6 px-5 text-start">
             <ol class="breadcrumb mb-0">
-                <li class="breadcrumb-item"><a class="small text-secondary" href="index.html">Home</a></li>
-                <li class="breadcrumb-item"><a class="small text-secondary" href="career.html">Career</a></li>
+                <li class="breadcrumb-item"><a class="small text-secondary" href="/">Home</a></li>
+                <li class="breadcrumb-item"><a class="small text-secondary" href="career">Career</a></li>
                 <li class="breadcrumb-item"><a class="small text-secondary" href="terms.hmtl">Terms</a></li>
                 <li class="breadcrumb-item"><a class="small text-secondary" href="privacy.hmtl">Privacy</a></li>
             </ol>
@@ -97,7 +97,7 @@
                     </div>
                     <div class="col-4">
                         <div class="d-flex align-items-center justify-content-end">
-                            
+
                             <div class="flex-shrink-0 btn-lg-square border rounded-circle">
                                 <i class="fa fa-phone text-primary"></i>
                             </div>
@@ -133,10 +133,10 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarCollapse">
             <div class="navbar-nav me-auto p-3 p-lg-0">
-                <a href="index.html" class="nav-item nav-link ">Home</a>
-                <a href="about.html" class="nav-item nav-link">About Us</a>
+                <a href="/" class="nav-item nav-link ">Home</a>
+                <a href="about" class="nav-item nav-link">About Us</a>
                 <div class="nav-item dropdown">
-                    <a href="service.html" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Services</a>
+                    <a href="service" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Services</a>
                     <div class="dropdown-menu border-0 rounded-0 rounded-bottom m-0">
                         <a href="#our-services" class="dropdown-item">Website Design</a>
                         <a href="#our-services" class="dropdown-item">Mobile Application</a>
@@ -150,12 +150,12 @@
                         <a href="#our-services" class="dropdown-item">Other</a>
                     </div>
                 </div>
-                <a href="project.html" class="nav-item nav-link">Projects</a>
-                <a href="testimonial.html" class="nav-item nav-link">Testimonial</a>
-                <a href="Blog.html" class="nav-item nav-link">Blog</a>
-                <a href="contact.html" class="nav-item nav-link">Contact Us</a>
+                <a href="project" class="nav-item nav-link">Projects</a>
+                <a href="testimonial" class="nav-item nav-link">Testimonial</a>
+                <a href="Blog" class="nav-item nav-link">Blog</a>
+                <a href="contact" class="nav-item nav-link">Contact Us</a>
             </div>
-            <a href="contact.html" class="btn btn-sm btn-light rounded-pill py-2 px-4 d-none d-lg-block">Login</a>
+            <a href="contact" class="btn btn-sm btn-light rounded-pill py-2 px-4 d-none d-lg-block">Login</a>
         </div>
     </nav>
     <!-- Navbar End -->
@@ -234,25 +234,25 @@
 
 <div class="container-xxl py-5">
     <div class="container">
-      
+
             <div class="row g-5">
                 <!-- <h6 class="section-title bg-white text-center text-primary px-3">Our Team</h6> -->
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="h-100">
                 <h4 class="section-title bg-white text-start text-primary pe-3">Open Positions:</h4>
                     </div></div>
-    
+
             </div>
-            
-               
-                
+
+
+
                 <ul>
                     <li>Full Stack Developer</li>
                     <li>Backend Developer</li>
                     <li>Frontend Developer</li>
                     <li>Technical Content Creator</li>
 
-                  </ul>  
+                  </ul>
 
 
 
@@ -262,7 +262,7 @@
                         <div class="h-100">
                     <h4 class="section-title bg-white text-start text-primary pe-3">What We Offer:</h4>
                         </div></div>
-        
+
                 </div>
 
                     <ul>
@@ -272,25 +272,25 @@
                         <li>The chance to work on exciting and challenging projects</li>
                         <li>Flexibility and work-life balance</li>
 
-                      </ul>  
-        
-    
+                      </ul>
+
+
                       <div class="row g-5">
                         <!-- <h6 class="section-title bg-white text-center text-primary px-3">Our Team</h6> -->
                         <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
                             <div class="h-100">
                         <h4 class="section-title bg-white text-start text-primary pe-3">How to Apply:</h4>
                             </div></div>
-            
+
                     </div>
                     <p>
                         To apply for a position at ShreeCode.in, please send your resume and cover letter to                                 <a href="mailto: shreecode.in@gmail.com" class="mb-0"><span style="color: #000000;padding: 0;"><b>shreecode.in@gmail.com</b></span></a>
                         . In your cover letter, please tell us about your experience and qualifications, as well as why you're interested in joining our team. We look forward to hearing from you!</p>
-                
-                
-    
-    
-    
+
+
+
+
+
         </div>
 </div>
 <!-- career end nahi hua abhi -->
@@ -328,7 +328,7 @@
             </div>
                 <div class="col-lg-3 col-md-6">
                     <h5 class="text-light mb-4">Our Services</h5>
-            
+
                             <a class="btn btn-link" href="">Website Design</a>
                             <a class="btn btn-link" href="">Mobile Application</a>
                             <a class="btn btn-link" href="">eCommerce</a>
@@ -337,7 +337,7 @@
                             <a class="btn btn-link" href="">Data Analytics</a>
                             <a class="btn btn-link" href="">Digital Marketing</a>
                             <a class="btn btn-link" href="">IT consulting</a>
-                      
+
                 </div>
             <div class="col-lg-3 col-md-6">
                 <h5 class="text-light mb-4">Map</h5>
@@ -356,10 +356,10 @@
                     Designed By <a href="https://htmlcodex.com">HTML Codex</a>
                     <br>Distributed By: <a class="border-bottom" href="https://themewagon.com" target="_blank">ThemeWagon</a>
                     <ol class="breadcrumb mb-5">
-                        <li class="breadcrumb-item"><a class="small text-secondary" href="index.html">Home</a></li>
-                        <li class="breadcrumb-item"><a class="small text-secondary" href="career.html">Career</a></li>
-                        <li class="breadcrumb-item"><a class="small text-secondary" href="terms.html">Terms</a></li>
-                        <li class="breadcrumb-item"><a class="small text-secondary" href="privacy.html">Privacy</a></li>
+                        <li class="breadcrumb-item"><a class="small text-secondary" href="/">Home</a></li>
+                        <li class="breadcrumb-item"><a class="small text-secondary" href="career">Career</a></li>
+                        <li class="breadcrumb-item"><a class="small text-secondary" href="terms">Terms</a></li>
+                        <li class="breadcrumb-item"><a class="small text-secondary" href="privacy">Privacy</a></li>
                     </ol>
                 </div>
             </div>

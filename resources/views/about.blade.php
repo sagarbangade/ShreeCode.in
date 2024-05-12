@@ -48,8 +48,8 @@
     <div class="row gx-0 align-items-center d-none d-lg-flex">
         <div class="col-lg-6 px-5 text-start">
             <ol class="breadcrumb mb-0">
-                <li class="breadcrumb-item"><a class="small text-secondary" href="index.html">Home</a></li>
-                <li class="breadcrumb-item"><a class="small text-secondary" href="career.html">Career</a></li>
+                <li class="breadcrumb-item"><a class="small text-secondary" href="/">Home</a></li>
+                <li class="breadcrumb-item"><a class="small text-secondary" href="career">Career</a></li>
                 <li class="breadcrumb-item"><a class="small text-secondary" href="terms.hmtl">Terms</a></li>
                 <li class="breadcrumb-item"><a class="small text-secondary" href="privacy.hmtl">Privacy</a></li>
             </ol>
@@ -91,7 +91,7 @@
                     </div>
                     <div class="col-4">
                         <div class="d-flex align-items-center justify-content-end">
-                            
+
                             <div class="flex-shrink-0 btn-lg-square border rounded-circle">
                                 <i class="fa fa-phone text-primary"></i>
                             </div>
@@ -127,10 +127,10 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarCollapse">
             <div class="navbar-nav me-auto p-3 p-lg-0">
-                <a href="index.html" class="nav-item nav-link ">Home</a>
-                <a href="about.html" class="nav-item nav-link active">About Us</a>
+                <a href="/" class="nav-item nav-link ">Home</a>
+                <a href="about" class="nav-item nav-link active">About Us</a>
                 <div class="nav-item dropdown">
-                    <a href="service.html" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Services</a>
+                    <a href="service" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Services</a>
                     <div class="dropdown-menu border-0 rounded-0 rounded-bottom m-0">
                         <a href="#our-services" class="dropdown-item">Website Design</a>
                         <a href="#our-services" class="dropdown-item">Mobile Application</a>
@@ -144,12 +144,12 @@
                         <a href="#our-services" class="dropdown-item">Other</a>
                     </div>
                 </div>
-                <a href="project.html" class="nav-item nav-link">Projects</a>
-                <a href="testimonial.html" class="nav-item nav-link">Testimonial</a>
-                <a href="Blog.html" class="nav-item nav-link">Blog</a>
-                <a href="contact.html" class="nav-item nav-link">Contact Us</a>
+                <a href="project" class="nav-item nav-link">Projects</a>
+                <a href="testimonial" class="nav-item nav-link">Testimonial</a>
+                <a href="Blog" class="nav-item nav-link">Blog</a>
+                <a href="contact" class="nav-item nav-link">Contact Us</a>
             </div>
-            <a href="contact.html" class="btn btn-sm btn-light rounded-pill py-2 px-4 d-none d-lg-block">Login</a>
+            <a href="contact" class="btn btn-sm btn-light rounded-pill py-2 px-4 d-none d-lg-block">Login</a>
         </div>
     </nav>
     <!-- Navbar End -->
@@ -208,7 +208,7 @@
     <!-- Facts End -->
 
 
-    
+
     <!-- About Start -->
     <div class="container-xxl py-5">
         <div class="container">
@@ -287,7 +287,7 @@
         <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
           <img src="img/client-2.png" class="img-fluid" alt="">
         </div>
-<!-- 
+<!--
         <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
           <img src="img/client-3.png" class="img-fluid" alt="">
         </div>
@@ -308,7 +308,7 @@
 
     </div>
   </section>
-  
+
   <!-- End Cliens Section -->
 
 
@@ -489,7 +489,7 @@
                     </div>
                 </div>
 
-                
+
 
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="team-item text-center p-4">
@@ -567,7 +567,7 @@
                     </div>
                 </div>
 
-               
+
 
             </div>
         </div>
@@ -641,7 +641,7 @@
                                 <div class="col-12">
                                     <textarea name="entry.1027682234"  class="form-control bg-light border-0" rows="3" placeholder="Message"></textarea>
                                 </div>
-                               
+
                                 <div class="col-12">
                                     <button class="btn btn-dark w-100 py-3" type="submit">Request A Quote</button>
                                 </div>
@@ -657,7 +657,7 @@
 
 
 
-  
+
  <!-- Footer Start -->
  <div class="container-fluid bg-dark text-body footer mt-5 pt-5 wow fadeIn" data-wow-delay="0.1s">
     <div class="container py-5">
@@ -686,7 +686,7 @@
             </div>
                 <div class="col-lg-3 col-md-6">
                     <h5 class="text-light mb-4">Our Services</h5>
-            
+
                             <a class="btn btn-link" href="">Website Design</a>
                             <a class="btn btn-link" href="">Mobile Application</a>
                             <a class="btn btn-link" href="">eCommerce</a>
@@ -695,7 +695,7 @@
                             <a class="btn btn-link" href="">Data Analytics</a>
                             <a class="btn btn-link" href="">Digital Marketing</a>
                             <a class="btn btn-link" href="">IT consulting</a>
-                      
+
                 </div>
             <div class="col-lg-3 col-md-6">
                 <h5 class="text-light mb-4">Map</h5>
@@ -714,10 +714,10 @@
                     Designed By <a href="https://htmlcodex.com">HTML Codex</a>
                     <br>Distributed By: <a class="border-bottom" href="https://themewagon.com" target="_blank">ThemeWagon</a>
                     <ol class="breadcrumb mb-5">
-                        <li class="breadcrumb-item"><a class="small text-secondary" href="index.html">Home</a></li>
-                        <li class="breadcrumb-item"><a class="small text-secondary" href="career.html">Career</a></li>
-                        <li class="breadcrumb-item"><a class="small text-secondary" href="terms.html">Terms</a></li>
-                        <li class="breadcrumb-item"><a class="small text-secondary" href="privacy.html">Privacy</a></li>
+                        <li class="breadcrumb-item"><a class="small text-secondary" href="/">Home</a></li>
+                        <li class="breadcrumb-item"><a class="small text-secondary" href="career">Career</a></li>
+                        <li class="breadcrumb-item"><a class="small text-secondary" href="terms">Terms</a></li>
+                        <li class="breadcrumb-item"><a class="small text-secondary" href="privacy">Privacy</a></li>
                     </ol>
                 </div>
             </div>
